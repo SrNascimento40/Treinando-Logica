@@ -22,3 +22,41 @@ console.log(typeof MyName)
 //&& e
 //|| ou
 //! negação, faz o verdadeiro virar falso
+
+//var person {
+    //"name" = "Nascimento"
+    //"age" = "22"
+//}
+
+//function Sum (num_a, num_b{
+//    return num_a + num_b
+//}
+
+let x = 4
+
+if (x>3) {
+    console.log(x + " é maior que três")
+}
+else {
+    console.log(x + " não é maior que três");
+}
+
+//class
+
+class book {
+    constructor (title, author, pages) {
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+    }
+
+    read() {
+        return 'estou lendo ${this.title}'
+    }
+}
+
+let book = new book ("Ação Humana", "Ludwig Von Mises", 1400)
+
+console.log(book.read);
+
+
